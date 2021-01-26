@@ -1823,7 +1823,9 @@
 
 		.box header h2 {
 			margin-bottom: 2rem;
+			height: 7vh;
 		}
+
 
 		.box header p {
 			text-transform: uppercase;
@@ -1832,6 +1834,7 @@
 			margin: 0 0 .25rem 0;
 			padding: 0 0 .75rem 0;
 			letter-spacing: .25rem;
+			height: 9vh;
 		}
 
 			.box header p:after {
@@ -1846,6 +1849,9 @@
 				background-color: rgba(0, 0, 0, 0.125);
 			}
 
+			.card-main .content > p {
+				height: 12vh;
+			}
 		.box .content {
 			padding: 3rem;
 		}
